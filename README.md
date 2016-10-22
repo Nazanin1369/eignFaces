@@ -26,20 +26,20 @@
 | 250 | Donald Rumsfeld  | 0.83 |  0.83 |  0.83 | 36
 
 
-* Fitting the classifier to the training set
+### Fitting the classifier to the training set
     done in 3.839s
 
-* Best estimator found by grid search:
+### Best estimator found by grid search:
     SVC(C=1000.0, cache_size=200, class_weight='balanced', coef0=0.0,
     decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
     max_iter=-1, probability=False, random_state=None, shrinking=True,
     tol=0.001, verbose=False)
 
 
-* Predicting the people names on the testing set
-done in 0.010s
+### Predicting the people names on the testing set
+    done in 0.010s
 
-* Classification Report
+### Classification Report
                    precision    recall  f1-score   support
 
   Donald Rumsfeld       0.91      0.83      0.87        36
@@ -48,8 +48,13 @@ Gerhard Schroeder       0.96      0.77      0.86        31
 
       avg / total       0.92      0.92      0.91       190
 
-* confusion_matrix
+### Confusion_matrix
 
 [[ 30   6   0]
  [  2 120   1]
  [  1   6  24]]
+ 
+### Images
+
+![alt tag](https://github.com/Nazanin1369/eignFaces/blob/master/figure_1.png)
+![alt tag](https://github.com/Nazanin1369/eignFaces/blob/master/figure_2.png)
