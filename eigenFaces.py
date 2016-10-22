@@ -88,7 +88,6 @@ print 'Variance explained by the second principal component: {0}'.format(pca.exp
 
 def analyzeF1Score():
     for n_components in [10, 15, 50, 150, 250]:
-        print "Extracting the top %d eigenfaces from %d faces" % (n_components, X_train.shape[0])
         pca = RandomizedPCA(n_components=n_components, whiten=True).fit(X_train)
         eigenfaces = pca.components_.reshape((n_components, h, w))
         X_train_pca = pca.transform(X_train)
