@@ -17,13 +17,13 @@
 
 ### PCA #components and f1_score relation - classification Report
          
-| n_components| -  |  precision |  recall |  f1-score | support
-|-----|:------------------:|:------:|:-------:|:-------:|
-|  10 | Donald Rumsfeld  | 0.54 | 0.61  |  0.57 | 36
-| 15  | Donald Rumsfeld  | 0.69 | 0.56  |  0.62 | 36
-| 50  | Donald Rumsfeld  | 0.97 |  0.86 |  0.91 | 36
-| 150 | Donald Rumsfeld  | 0.86 |  0.86 |  0.86 | 36
-| 250 | Donald Rumsfeld  | 0.83 |  0.83 |  0.83 | 36
+n_components| x  |  precision |  recall |  f1-score | support
+-----|------------------|------|-------|-------|----
+  10 | Donald Rumsfeld  | 0.54 | 0.61  |  0.57 | 36
+ 15  | Donald Rumsfeld  | 0.69 | 0.56  |  0.62 | 36
+ 50  | Donald Rumsfeld  | 0.97 |  0.86 |  0.91 | 36
+ 150 | Donald Rumsfeld  | 0.86 |  0.86 |  0.86 | 36
+ 250 | Donald Rumsfeld  | 0.83 |  0.83 |  0.83 | 36
 
 
 ### Fitting the classifier to the training set
@@ -40,13 +40,13 @@
     done in 0.010s
 
 ### Classification Report
-                   precision    recall  f1-score   support
+                   | precision |   recall | f1-score  | support
+------------------ | ----------| ----------|------------|------
+  Donald Rumsfeld |      0.91  |    0.83   |   0.87     |   36
+    George W Bush  |      0.91  |    0.98  |    0.94    |   123
+Gerhard Schroeder  |     0.96   |   0.77   |   0.86    |    31
 
-  Donald Rumsfeld       0.91      0.83      0.87        36
-    George W Bush       0.91      0.98      0.94       123
-Gerhard Schroeder       0.96      0.77      0.86        31
-
-      avg / total       0.92      0.92      0.91       190
+      avg / total   |    0.92   |   0.92  |    0.91    |   190
 
 ### Confusion_matrix
 
@@ -54,7 +54,7 @@ Gerhard Schroeder       0.96      0.77      0.86        31
  [  2 120   1]
  [  1   6  24]]
  
-### Images
+### Results
 
 ![alt tag](https://github.com/Nazanin1369/eignFaces/blob/master/figure_1.png)
 ![alt tag](https://github.com/Nazanin1369/eignFaces/blob/master/figure_2.png)
