@@ -1,28 +1,29 @@
 ## eignFaces
-* Compute a PCA (eigenfaces) on the face dataset
 
-Total dataset size:
-n_samples: 760
-n_features: 1850
-n_classes: 3
+### Compute a PCA (eigenfaces) on the face dataset
+    n_samples: 760
+    n_features: 1850
+    n_classes: 3
 
-* Extracting the top 150 eigenfaces from 570 faces
+### Extracting the top 150 eigenfaces from 570 faces
     done in 0.157s
 
-* Projecting the input data on the eigenfaces orthonormal basis
+### Projecting the input data on the eigenfaces orthonormal basis
     done in 0.017s
 
-* Variance explained by the first principal component:  0.18954512666
-* Variance explained by the second principal component: 0.155786516991
+### Calculationg PCA components' Variance:
+    Variance explained by the first principal component:  0.18954512666
+    Variance explained by the second principal component: 0.155786516991
 
-* PCA #components and f1_score relation - classification Report
-
-n_components                   precision    recall  f1-score   support
-          10  Donald Rumsfeld       0.54      0.61      0.57        36
-          15  Donald Rumsfeld       0.69      0.56      0.62        36
-          50  Donald Rumsfeld       0.97      0.86      0.91        36
-         150  Donald Rumsfeld       0.86      0.86      0.86        36
-         250  Donald Rumsfeld       0.83      0.83      0.83        36
+### PCA #components and f1_score relation - classification Report
+         
+| n_components| -  |  precision |  recall |  f1-score | support
+|-----|:------------------:|:------:|:-------:|:-------:|
+|  10 | Donald Rumsfeld  | 0.54 | 0.61  |  0.57 | 36
+| 15  | Donald Rumsfeld  | 0.69 | 0.56  |  0.62 | 36
+| 50  | Donald Rumsfeld  | 0.97 |  0.86 |  0.91 | 36
+| 150 | Donald Rumsfeld  | 0.86 |  0.86 |  0.86 | 36
+| 250 | Donald Rumsfeld  | 0.83 |  0.83 |  0.83 | 36
 
 
 * Fitting the classifier to the training set
